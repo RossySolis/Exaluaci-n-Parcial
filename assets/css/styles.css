@@ -1,0 +1,74 @@
+:root {
+    --uc-blue: #0d6efd;
+    --uc-ink: #0b2a4a;
+    --uc-soft: #e9f2ff;
+    --uc-bg: #f6f9ff;
+}
+
+.text-uc {
+    color: var(--uc-ink) !important;
+}
+
+.bg-uc-primary {
+    background: var(--uc-blue) !important;
+}
+
+.btn-uc-primary {
+    background: linear-gradient(90deg, #0b5ed7, #1f7aff);
+    border-color: transparent;
+}
+
+.btn-uc-primary:hover {
+    background: linear-gradient(90deg, #0a57c2, #1a6fe0);
+}
+
+.btn-outline-uc {
+    border-color: #1f7aff;
+    color: #1f7aff;
+}
+
+.btn-outline-uc:hover {
+    background: #e7f0ff;
+}
+
+.navbar.bg-uc {
+    background: linear-gradient(90deg, #0b2a4a, #0d5bd6);
+}
+
+.uc-card {
+    background: white;
+}
+
+.uc-pill {
+    display: inline-flex;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: 600;
+    background: var(--uc-soft);
+    color: #0b2a4a;
+}
+
+.uc-checklist .uc-check {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e8f3ff;
+    color: #0d6efd;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.uc-hero-panel {
+    background: linear-gradient(180deg, rgba(13, 110, 253, .95), rgba(11, 42, 74, .98));
+    border-radius: 18px;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(13, 110, 253, .15);
+}
+
+.uc-select {
+    background: rgba(255, 255, 255, .95);
+    border-color: rgba(255, 255, 255, .35);
+}
