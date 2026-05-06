@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UC - Rediseño</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom -->
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-light">
+    <!-- Topbar -->
+    <div class="bg-white border-bottom">
+        <div class="container py-2 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+            <div class="d-flex align-items-center gap-2">
+                <div class="uc-logo" aria-hidden="true"></div>
+                <div>
+                    <div class="fw-bold">ucontinental.edu.pe</div>
+
+                </div>
+            </div>
+
+            <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-primary" href="./solicita-informacion.html">Solicita información</a>
+                <a class="btn btn-sm btn-primary" href="#conocenos" onclick="location.href='./index.html#conocenos'">Conócenos</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-uc shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="./index.html">UC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ucNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse" id="ucNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Conócenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./carreras.html">Carreras y programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./internacional.html">Internacional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./investigacion.html">Investigación y centros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experiencia.html">Experiencia UC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-ghost ms-lg-2" href="./solicita-informacion.html">Solicita información</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <h1 class="display-5 fw-bold text-uc">
+                        Formación que impulsa tu futuro
+                    </h1>
+                    <p class="lead text-muted">
+                        Descubre una experiencia universitaria innovadora con enfoque en empleabilidad, investigación y proyección internacional.
+                    </p>
+
+                    <div class="d-flex flex-column flex-sm-row gap-2">
+                        <a class="btn btn-uc-primary btn-lg" href="./carreras.html">Explorar carreras</a>
+                        <a class="btn btn-outline-uc btn-lg" href="./solicita-informacion.html">Solicita información</a>
+                    </div>
+
+                    <!-- Value-added widgets -->
+                    <div class="mt-4">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card border-0 shadow-sm uc-card">
+                                    <div class="card-body">
+                                        <div class="uc-pill bg-uc-soft mb-2">100% práctico</div>
+                                        <h5 class="card-title mb-1">Aprendizaje aplicado</h5>
+                                        <p class="card-text text-secondary mb-0">Proyectos y casos reales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-0 shadow-sm uc-card">
+                                    <div class="card-body">
+                                        <div class="uc-pill bg-uc-soft mb-2">Investigación</div>
+                                        <h5 class="card-title mb-1">Ciencia con impacto</h5>
+                                        <p class="card-text text-secondary mb-0">Centros y líneas especializadas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-0 shadow-sm uc-card">
+                                    <div class="card-body">
+                                        <div class="uc-pill bg-uc-soft mb-2">Internacional</div>
+                                        <h5 class="card-title mb-1">Red global</h5>
+                                        <p class="card-text text-secondary mb-0">Movilidad y convenios.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="uc-hero-panel">
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between gap-3">
+                                <div>
+                                    <div class="small text-white-50">Orientación académica</div>
+                                    <div class="fw-bold text-white">Te ayudamos a elegir</div>
+                                </div>
+                                <span class="badge text-bg-light">Nuevo</span>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="form-label text-white-50">¿Qué te interesa?</label>
+                                <select class="form-select uc-select" aria-label="Interés">
+                  <option selected>Elige una opción</option>
+                  <option value="tecnologia">Tecnología</option>
+                  <option value="salud">Salud</option>
+                  <option value="negocios">Negocios</option>
+                  <option value="educacion">Educación</option>
+                  <option value="ingenieria">Ingeniería</option>
+                </select>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="form-label text-white-50">¿Nivel?</label>
+                                <div class="btn-group w-100" role="group" aria-label="Nivel">
+                                    <button type="button" class="btn btn-sm btn-outline-light" onclick="setLevel('pregrado')">Pregrado</button>
+                                    <button type="button" class="btn btn-sm btn-outline-light" onclick="setLevel('posgrado')">Posgrado</button>
+                                    <button type="button" class="btn btn-sm btn-outline-light" onclick="setLevel('certificacion')">Certificación</button>
+                                </div>
+                                <input type="hidden" id="selectedLevel" value="pregrado" />
+                            </div>
+
+                            <div class="mt-3">
+                                <button class="btn btn-light w-100 fw-semibold" onclick="goSolicitaInfo()">
+                  Ver opciones para ti
+                </button>
+                                <p class="small text-white-50 mt-2 mb-0" id="recommendationText">
+                                    Recomendaciones se actualizarán al enviar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 small text-muted">
+                        Valor agregado: “Selector de intereses” (mini asistente) + formularios listos para enviar.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conócenos section -->
+    <section id="conocenos" class="py-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-uc">Conócenos</h2>
+                    <p class="text-muted">
+                        Somos una universidad enfocada en la mejora continua: programas flexibles, calidad académica y acompañamiento para que logres tus metas.
+                    </p>
+                    <ul class="list-unstyled uc-checklist">
+                        <li class="d-flex gap-2 align-items-start mb-2">
+                            <span class="uc-check">✓</span>
+                            <div><strong>Guía personalizada</strong> con acompañamiento durante tu proceso.</div>
+                        </li>
+                        <li class="d-flex gap-2 align-items-start mb-2">
+                            <span class="uc-check">✓</span>
+                            <div><strong>Infraestructura y tecnología</strong> para aprender y crear.</div>
+                        </li>
+                        <li class="d-flex gap-2 align-items-start mb-2">
+                            <span class="uc-check">✓</span>
+                            <div><strong>Empleabilidad</strong> a través de proyectos y alianzas.</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="h5 fw-bold mb-3">Métricas de impacto (demo)</h3>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="uc-metric">
+                                        <div class="uc-metric-number">+120</div>
+                                        <div class="text-secondary">Docentes especializados</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="uc-metric">
+                                        <div class="uc-metric-number">40+</div>
+                                        <div class="text-secondary">Convenios internacionales</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="uc-metric">
+                                        <div class="uc-metric-number">25</div>
+                                        <div class="text-secondary">Centros de investigación</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="uc-metric">
+                                        <div class="uc-metric-number">1ra</div>
+                                        <div class="text-secondary">Experiencia de aprendizaje</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 text-muted small">
+                                Nota: valores de ejemplo para el rediseño (puedes reemplazarlos con datos reales).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-top bg-white mt-5">
+        <div class="container py-4">
+            <div class="row g-3 align-items-center">
+                <div class="col-md-6">
+                    <div class="fw-bold">UC - Rediseño</div>
+                    <div class="text-muted small">Plantilla Bootstrap (estática) para tu entrega.</div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="./solicita-informacion.html" class="btn btn-uc-primary">Solicita información</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
